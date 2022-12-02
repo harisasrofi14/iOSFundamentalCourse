@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4694A032939EB51004F5BA9 /* Coffeeshop.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4694A022939EB51004F5BA9 /* Coffeeshop.swift */; };
+		E4694A062939EB5B004F5BA9 /* CoffeeShopDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4694A042939EB5B004F5BA9 /* CoffeeShopDetailView.swift */; };
+		E4694A072939EB5B004F5BA9 /* CoffeeShopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4694A052939EB5B004F5BA9 /* CoffeeShopListView.swift */; };
 		E4AB4BBB2939E8C30073378A /* IOSFundamentalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AB4BBA2939E8C30073378A /* IOSFundamentalApp.swift */; };
 		E4AB4BBD2939E8C30073378A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AB4BBC2939E8C30073378A /* ContentView.swift */; };
 		E4AB4BBF2939E8C50073378A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4AB4BBE2939E8C50073378A /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E4694A022939EB51004F5BA9 /* Coffeeshop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Coffeeshop.swift; path = ../../../../CoffeeShop/CoffeeShop/Model/Coffeeshop.swift; sourceTree = "<group>"; };
+		E4694A042939EB5B004F5BA9 /* CoffeeShopDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoffeeShopDetailView.swift; path = ../../../../CoffeeShop/CoffeeShop/View/CoffeeShopDetailView.swift; sourceTree = "<group>"; };
+		E4694A052939EB5B004F5BA9 /* CoffeeShopListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoffeeShopListView.swift; path = ../../../../CoffeeShop/CoffeeShop/View/CoffeeShopListView.swift; sourceTree = "<group>"; };
 		E4AB4BB72939E8C30073378A /* IOSFundamental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSFundamental.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4AB4BBA2939E8C30073378A /* IOSFundamentalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSFundamentalApp.swift; sourceTree = "<group>"; };
 		E4AB4BBC2939E8C30073378A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +38,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E4694A002939EB30004F5BA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E4694A042939EB5B004F5BA9 /* CoffeeShopDetailView.swift */,
+				E4694A052939EB5B004F5BA9 /* CoffeeShopListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E4694A012939EB3E004F5BA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4694A022939EB51004F5BA9 /* Coffeeshop.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E4AB4BAE2939E8C30073378A = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +74,8 @@
 		E4AB4BB92939E8C30073378A /* IOSFundamental */ = {
 			isa = PBXGroup;
 			children = (
+				E4694A012939EB3E004F5BA9 /* Model */,
+				E4694A002939EB30004F5BA9 /* View */,
 				E4AB4BBA2939E8C30073378A /* IOSFundamentalApp.swift */,
 				E4AB4BBC2939E8C30073378A /* ContentView.swift */,
 				E4AB4BBE2939E8C50073378A /* Assets.xcassets */,
@@ -137,6 +162,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4694A032939EB51004F5BA9 /* Coffeeshop.swift in Sources */,
+				E4694A072939EB5B004F5BA9 /* CoffeeShopListView.swift in Sources */,
+				E4694A062939EB5B004F5BA9 /* CoffeeShopDetailView.swift in Sources */,
 				E4AB4BBD2939E8C30073378A /* ContentView.swift in Sources */,
 				E4AB4BBB2939E8C30073378A /* IOSFundamentalApp.swift in Sources */,
 			);
