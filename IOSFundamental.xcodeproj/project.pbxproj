@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4694A122939F273004F5BA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4AB4BBE2939E8C50073378A /* Assets.xcassets */; };
+		E4694A152939F2AA004F5BA9 /* ActivityView in Frameworks */ = {isa = PBXBuildFile; productRef = E4694A142939F2AA004F5BA9 /* ActivityView */; };
+		E4694A192939F2D9004F5BA9 /* Coffeeshop.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4694A182939F2D9004F5BA9 /* Coffeeshop.swift */; };
+		E4694A1B2939F2F9004F5BA9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4694A1A2939F2F9004F5BA9 /* MainView.swift */; };
+		E4694A1D2939F30D004F5BA9 /* CoffeeShopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4694A1C2939F30D004F5BA9 /* CoffeeShopListView.swift */; };
+		E4694A1F2939F320004F5BA9 /* CoffeeShopDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4694A1E2939F320004F5BA9 /* CoffeeShopDetailView.swift */; };
 		E4AB4BBB2939E8C30073378A /* IOSFundamentalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AB4BBA2939E8C30073378A /* IOSFundamentalApp.swift */; };
 		E4AB4BBD2939E8C30073378A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AB4BBC2939E8C30073378A /* ContentView.swift */; };
-		E4AB4BBF2939E8C50073378A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4AB4BBE2939E8C50073378A /* Assets.xcassets */; };
 		E4AB4BC22939E8C50073378A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4AB4BC12939E8C50073378A /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E4694A182939F2D9004F5BA9 /* Coffeeshop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffeeshop.swift; sourceTree = "<group>"; };
+		E4694A1A2939F2F9004F5BA9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E4694A1C2939F30D004F5BA9 /* CoffeeShopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeShopListView.swift; sourceTree = "<group>"; };
+		E4694A1E2939F320004F5BA9 /* CoffeeShopDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeShopDetailView.swift; sourceTree = "<group>"; };
 		E4AB4BB72939E8C30073378A /* IOSFundamental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSFundamental.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4AB4BBA2939E8C30073378A /* IOSFundamentalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSFundamentalApp.swift; sourceTree = "<group>"; };
 		E4AB4BBC2939E8C30073378A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,12 +35,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4694A152939F2AA004F5BA9 /* ActivityView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E4694A162939F2B6004F5BA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E4694A1A2939F2F9004F5BA9 /* MainView.swift */,
+				E4694A1C2939F30D004F5BA9 /* CoffeeShopListView.swift */,
+				E4694A1E2939F320004F5BA9 /* CoffeeShopDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E4694A172939F2BC004F5BA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4694A182939F2D9004F5BA9 /* Coffeeshop.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E4AB4BAE2939E8C30073378A = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +79,8 @@
 		E4AB4BB92939E8C30073378A /* IOSFundamental */ = {
 			isa = PBXGroup;
 			children = (
+				E4694A172939F2BC004F5BA9 /* Model */,
+				E4694A162939F2B6004F5BA9 /* View */,
 				E4AB4BBA2939E8C30073378A /* IOSFundamentalApp.swift */,
 				E4AB4BBC2939E8C30073378A /* ContentView.swift */,
 				E4AB4BBE2939E8C50073378A /* Assets.xcassets */,
@@ -83,6 +113,9 @@
 			dependencies = (
 			);
 			name = IOSFundamental;
+			packageProductDependencies = (
+				E4694A142939F2AA004F5BA9 /* ActivityView */,
+			);
 			productName = IOSFundamental;
 			productReference = E4AB4BB72939E8C30073378A /* IOSFundamental.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +144,9 @@
 				Base,
 			);
 			mainGroup = E4AB4BAE2939E8C30073378A;
+			packageReferences = (
+				E4694A132939F2AA004F5BA9 /* XCRemoteSwiftPackageReference "ActivityView" */,
+			);
 			productRefGroup = E4AB4BB82939E8C30073378A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +161,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4694A122939F273004F5BA9 /* Assets.xcassets in Resources */,
 				E4AB4BC22939E8C50073378A /* Preview Assets.xcassets in Resources */,
-				E4AB4BBF2939E8C50073378A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4694A192939F2D9004F5BA9 /* Coffeeshop.swift in Sources */,
+				E4694A1D2939F30D004F5BA9 /* CoffeeShopListView.swift in Sources */,
+				E4694A1B2939F2F9004F5BA9 /* MainView.swift in Sources */,
 				E4AB4BBD2939E8C30073378A /* ContentView.swift in Sources */,
 				E4AB4BBB2939E8C30073378A /* IOSFundamentalApp.swift in Sources */,
+				E4694A1F2939F320004F5BA9 /* CoffeeShopDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +379,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E4694A132939F2AA004F5BA9 /* XCRemoteSwiftPackageReference "ActivityView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUI-Plus/ActivityView";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E4694A142939F2AA004F5BA9 /* ActivityView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4694A132939F2AA004F5BA9 /* XCRemoteSwiftPackageReference "ActivityView" */;
+			productName = ActivityView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E4AB4BAF2939E8C30073378A /* Project object */;
 }
