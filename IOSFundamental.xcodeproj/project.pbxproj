@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4694A0F2939F052004F5BA9 /* DetailSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4694A0E2939F052004F5BA9 /* DetailSheetView.swift */; };
+		E4694A112939F0C2004F5BA9 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4694A102939F0C2004F5BA9 /* WebView.swift */; };
 		E4AB4BBB2939E8C30073378A /* IOSFundamentalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AB4BBA2939E8C30073378A /* IOSFundamentalApp.swift */; };
 		E4AB4BBD2939E8C30073378A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AB4BBC2939E8C30073378A /* ContentView.swift */; };
 		E4AB4BBF2939E8C50073378A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4AB4BBE2939E8C50073378A /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E4694A0E2939F052004F5BA9 /* DetailSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSheetView.swift; sourceTree = "<group>"; };
+		E4694A102939F0C2004F5BA9 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		E4AB4BB72939E8C30073378A /* IOSFundamental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSFundamental.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4AB4BBA2939E8C30073378A /* IOSFundamentalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSFundamentalApp.swift; sourceTree = "<group>"; };
 		E4AB4BBC2939E8C30073378A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,8 +55,10 @@
 		E4AB4BB92939E8C30073378A /* IOSFundamental */ = {
 			isa = PBXGroup;
 			children = (
+				E4694A0E2939F052004F5BA9 /* DetailSheetView.swift */,
 				E4AB4BBA2939E8C30073378A /* IOSFundamentalApp.swift */,
 				E4AB4BBC2939E8C30073378A /* ContentView.swift */,
+				E4694A102939F0C2004F5BA9 /* WebView.swift */,
 				E4AB4BBE2939E8C50073378A /* Assets.xcassets */,
 				E4AB4BC02939E8C50073378A /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4AB4BBD2939E8C30073378A /* ContentView.swift in Sources */,
+				E4694A112939F0C2004F5BA9 /* WebView.swift in Sources */,
+				E4694A0F2939F052004F5BA9 /* DetailSheetView.swift in Sources */,
 				E4AB4BBB2939E8C30073378A /* IOSFundamentalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
