@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E483636E2948C32D001A29AD /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E483636D2948C32D001A29AD /* CardModel.swift */; };
 		E4AB4BBB2939E8C30073378A /* IOSFundamentalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AB4BBA2939E8C30073378A /* IOSFundamentalApp.swift */; };
 		E4AB4BBD2939E8C30073378A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AB4BBC2939E8C30073378A /* ContentView.swift */; };
 		E4AB4BBF2939E8C50073378A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4AB4BBE2939E8C50073378A /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E483636D2948C32D001A29AD /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 		E4AB4BB72939E8C30073378A /* IOSFundamental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSFundamental.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4AB4BBA2939E8C30073378A /* IOSFundamentalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSFundamentalApp.swift; sourceTree = "<group>"; };
 		E4AB4BBC2939E8C30073378A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E483636C2948C2A6001A29AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E483636D2948C32D001A29AD /* CardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E4AB4BAE2939E8C30073378A = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +61,7 @@
 		E4AB4BB92939E8C30073378A /* IOSFundamental */ = {
 			isa = PBXGroup;
 			children = (
+				E483636C2948C2A6001A29AD /* Model */,
 				E4AB4BBA2939E8C30073378A /* IOSFundamentalApp.swift */,
 				E4AB4BBC2939E8C30073378A /* ContentView.swift */,
 				E4AB4BBE2939E8C50073378A /* Assets.xcassets */,
@@ -139,6 +150,7 @@
 			files = (
 				E4AB4BBD2939E8C30073378A /* ContentView.swift in Sources */,
 				E4AB4BBB2939E8C30073378A /* IOSFundamentalApp.swift in Sources */,
+				E483636E2948C32D001A29AD /* CardModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
